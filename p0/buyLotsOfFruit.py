@@ -33,7 +33,7 @@ def buyLotsOfFruit(orderList):
         if item in FRUIT_PRICES:
             cost += quantity * FRUIT_PRICES[item]
         else:
-            return cost
+            return None
     # *** Your Code Here ***
 
     return cost
