@@ -27,10 +27,16 @@ def buyLotsOfFruit(orderList):
 
     Returns cost of order
     """
+    cost = 0
 
+    for item, quantity in orderList:
+        if item in FRUIT_PRICES:
+            cost += quantity * FRUIT_PRICES[item]
+        else:
+            return cost
     # *** Your Code Here ***
 
-    return None
+    return cost
 
 def main():
     orderList = [
