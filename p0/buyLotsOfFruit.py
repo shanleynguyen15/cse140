@@ -40,12 +40,12 @@ def buyLotsOfFruit(orderList):
     return None
 
 def main():
-    # orderList = [
-    #     ('apples', 2.0),
-    #     ('pears', 3.0),
-    #     ('limes', 4.0)
-    # ]
-    orderList = [("apples", 1.0), ("oranges", 3.0)]
+    orderList = [
+        ('apples', 2.0),
+        ('pears', 3.0),
+        ('limes', 4.0)
+    ]
+    # orderList = [("apples", 1.0), ("oranges", 3.0)]
     print("Cost of %s is %s." % (orderList, buyLotsOfFruit(orderList)))
 
 if __name__ == '__main__':
