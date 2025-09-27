@@ -21,6 +21,7 @@ def shopSmart(orderList, fruitShops):
 
     # *** Your Code Here ***
 
+    orderList = list()
     return None
 
 def main():
