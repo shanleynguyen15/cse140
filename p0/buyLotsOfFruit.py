@@ -37,7 +37,6 @@ def buyLotsOfFruit(orderList):
     return cost
     # *** Your Code Here ***
 
-    return None
 
 def main():
     orderList = [
